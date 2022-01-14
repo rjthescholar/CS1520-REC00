@@ -1,0 +1,86 @@
+/* Fill in all of the TODOs in this CSS document */
+
+/* Styles for the background */
+body {
+	/* TODO: Set the background image to be bg.png */
+	background-image: url("assets/bg.jpg");
+	background-size: cover;
+	background-repeat: repeat-y;
+	height: 100%;
+	width: 100%;
+	float: left;
+	margin: 0;
+
+	/* TODO: Set the text color as #222 */
+	color: #222;
+}
+
+/* Helper styles for getting the background image to work correctly */
+html {
+	height: 100%;
+	width: 100%;
+
+	/* TODO: Set the margin to 0 and font-family to sans-serif */
+	margin: 0;
+	font-family: sans-serif;
+	
+}
+
+/* Gets the main div into a translucent hovering box */
+#main
+{
+	margin-top: 50px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+
+	/* TODO: Set the background color to be rgba(200, 200, 200, 4) */
+	background-color: rgba(200, 200, 200, 4);	
+	min-height: calc(100% - 100px);
+	border-radius: 5px;
+	min-width: 500px;
+	overflow: auto;
+}
+
+h1 {
+	font-size: 4em;
+	margin: 20px;
+
+	/* TODO: Center align the text, on the horizontal axis */
+	text-align: center;
+}
+
+.text {
+	font-size: 1.3em;
+	text-align: justify;
+}
+
+/* Set margins of content */
+#content {
+	
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 15px; 
+	
+}
+
+/* Attempt to center topbar */
+#topbar {
+	min-height: 12em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	width: 80%;
+}
+
+/* Resize and round profile picture */
+#profile {
+	height: 12em;
+	width: auto;
+	border-radius: 100%;
+	display: inline;
+	vertical-align: middle;
+	float: left;
+}
